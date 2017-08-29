@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@font-face {
+    font-family: GoT;
+    src: url("/css/got.ttf");
+}
+*{
+    font-family: GoT;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    diplay: inline-block;
+    color: black;
+    text-shadow: 0px 1px 1px #4d4d4d;
+    background-color:#b21c01;
+    padding: 1%;
+    text-shadow: 1px 1px;
+    box-shadow: 0px 2px 2px 2px rgba(92,92,92,1);
+    z-index: 1000000;
+}
+textarea:focus, input:focus, .uneditable-input:focus {
+    border-color: rgba(229, 103, 23, 0.8) !important;
+    box-shadow: 0 1px 1px rgba(178, 28, 1, 0.075) inset, 0 0 8px rgba(178, 28, 1, 0.6) !important;
+    outline: 0 none !important;
+}
+input[type="text"], textarea {
+  background-color : #d1d1d1; 
+}
+input[type="password"] {
+    background-color: #d1d1d1;
+}
+#logout{
+    display:inline-block;
+    margin-left: 80%;
+    vertical-align:top;
+}
+button{
+    background:#b21c01;
+    color: #170B01;
+    text-align:right;
+    text-shadow: 0px 1px 1px #4d4d4d;
+    border:none;
+    outline:none;
+}
+#maincontent {
+    border: 0.5px solid black;
+    margin:0;
+    padding: 0;
+    color: #878787;
+    background: url(https://static1.squarespace.com/static/54bd9d01e4b068568728657c/t/54e25b3ae4b00d4519b5377f/1424120638561/persian-rug-background.jpg?format=1500w);
+    height: 100%;
+    background-position:center;
+}

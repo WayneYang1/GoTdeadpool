@@ -67,7 +67,6 @@ public class PickService {
 		Character victim = characterRepo.findOne(victimId);
 		Character killer = characterRepo.findOne(killerId);
 		
-		
 		pick.setUserPicks(user);
 		pick.setRelatedDeadpool(deadpool);
 		pick.setKiller(killer);

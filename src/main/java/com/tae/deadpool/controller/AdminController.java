@@ -47,7 +47,7 @@ public class AdminController {
     public String getCharactersPerPage(Model model, @PathVariable("pageNumber") int pageNumber) {
         Page<Character> characters = characterService.charactersPerPage(pageNumber - 1);
         
-       int totalPages = characters.getTotalPages();
+        	int totalPages = characters.getTotalPages();
         model.addAttribute("totalPages", totalPages);
         model.addAttribute("characters", characters);
         return "characterPages.jsp";

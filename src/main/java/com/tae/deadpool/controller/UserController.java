@@ -133,6 +133,7 @@ public class UserController {
         model.addAttribute("host", host);
         model.addAttribute("currentUser", currentUser);
         
+        
         model.addAttribute("ud", userDeadpoolService.findAll());
         
         

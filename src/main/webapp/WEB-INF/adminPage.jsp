@@ -28,5 +28,6 @@
 				<input type="submit" value="Update scores!">
 			</form>
 	</fieldset>
+	<a href="/">Homepage</a>
 </body>
 </html>

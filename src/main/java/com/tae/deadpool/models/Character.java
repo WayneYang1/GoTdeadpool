@@ -33,7 +33,6 @@ public class Character {
 	@ManyToOne
 	private Character murderer;
 	
-	
 	@OneToMany(mappedBy = "murderer", fetch = FetchType.LAZY)
 	private List<Character> victims;
 	
@@ -120,8 +119,4 @@ public class Character {
 	public void setUpdatedAt(Date updatedAt) {
 		this.updatedAt = updatedAt;
 	}
-    
-    
-	
-	
 }

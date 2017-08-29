@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face {
+    font-family: GoT;
+    src: url("/css/got.ttf");
+}
+*{
+    font-family: GoT;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    color: black;
+    text-shadow: 0px 1px 1px #4d4d4d;
+    background-color:#b21c01;
+    padding: 1%;
+    text-shadow: 1px 1px;
+    box-shadow: 0px 2px 2px 2px rgba(92,92,92,1);
+    z-index: 1000000;
+    width: 100%;
+    height: 20%;
+}
+button{
+    background:#b21c01;
+    color: #170B01;
+    text-align:right;
+    text-shadow: 0px 1px 1px #4d4d4d;
+    border:none;
+    outline:none;
+}
+#logout{
+    display: inline-block;
+    margin-left: 80%;
+    vertical-align: top;
+}
+#GoT{
+    display:inline-block;
+}
+#main {
+    color: #878787;
+    border: 0.5px solid black;
+    vertical-align: top;
+    margin:0;
+    padding: 0;
+    color: #878787;
+    background: url(https://static1.squarespace.com/static/54bd9d01e4b068568728657c/t/54e25b3ae4b00d4519b5377f/1424120638561/persian-rug-background.jpg?format=1500w);
+    height: 800px;
+    background-position:center;
+}
+#h2{
+    font-family: GoT;
+}
